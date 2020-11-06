@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/script.js" defer></script>
+
     <title>QUIZ</title>
 </head>
 
@@ -30,9 +31,52 @@
         </div>
     </nav>
     <h1>Take the Breathe Quiz</h1>
-    <h3>just a quiz on your method of relaxation</h3>
+    <h3>just a quiz to check if you're stressed...</h3>
 
+    <div class="quiz">
 
+        <form name="quiz" id="quiz">
+            <div>
+                <p>Question 1.</p>
+                <p><input type="radio" name="question1" value="anwser1">1</p>
+                <p><input type="radio" name="question1" value="anwser2">2</p>
+                <p><input type="radio" name="question1" value="anwser3">3</p>
+            </div>
+
+            <div>
+                <p>Question 2.</p>
+                <p><input type="radio" name="question2" value="anwser1">1</p>
+                <p><input type="radio" name="question2" value="anwser2">2</p>
+                <p><input type="radio" name="question2" value="anwser3">3</p>
+            </div>
+
+            <div>
+                <p>Question 3.</p>
+                <p><input type="radio" name="question3" value="anwser1">1</p>
+                <p><input type="radio" name="question3" value="anwser2">2</p>
+                <p><input type="radio" name="question3" value="anwser3">3</p>
+            </div>
+
+            <div>
+                <p>Question 4.</p>
+                <p><input type="radio" name="question4" value="anwser1">1</p>
+                <p><input type="radio" name="question4" value="anwser2">2</p>
+                <p><input type="radio" name="question4" value="anwser3">3</p>
+            </div>
+
+            <div>
+                <p>Question 5.</p>
+                <p><input type="radio" name="question5" value="anwser1">1</p>
+                <p><input type="radio" name="question5" value="anwser2">2</p>
+                <p><input type="radio" name="question5" value="anwser3">3</p>
+            </div>
+
+            <input type="button" name="" value="Am I Stressed?" id="button" onclick="check()">
+
+        </form>
+        <p id="result"></p>
+
+    </div>
 
 </body>
 

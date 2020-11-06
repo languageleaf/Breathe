@@ -79,3 +79,18 @@ body {
     display: flex;
   }
 }
+
+.quiz {
+  background-color: papayawhip;
+  color: black;
+  font-size: 25px;
+  font-weight: bolder;
+  margin-left: 2rem;
+}
+
+#button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+}
