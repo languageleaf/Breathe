@@ -1,3 +1,9 @@
-.navlist {
-  display: inline;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
 }
