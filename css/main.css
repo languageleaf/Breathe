@@ -5,15 +5,23 @@
 body {
   margin: 0;
   padding: 0;
+  background-color: #efebe2;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-family: "Cormorant Garamond", serif;
   background-color: bisque;
-  color: white;
+  color: #54462f;
 }
+
+.websitename {
+  font-size: 2rem;
+  margin: 1rem;
+}
+
 .navlist ul {
   margin: 0;
   padding: 0;
