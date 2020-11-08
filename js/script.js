@@ -35,12 +35,18 @@ function check() {
   }
 
   quiz.style.display = "none";
-  if (c < 3) {
+
+  if (c < 1) {
     result.textContent = ` Rarely stressed
     You're good at tackling stress and nothing really gets you down for long. You manage each situation well and keep your cool – even when things are unexpected.
     `;
+  } else if (c < 3) {
+    result.textContent = `A bit stressed:
+Although you may show some of the classic signs of stress, you manage the situation quite well. You tend to be stressed but you’re good with de-stressing and not letting it 
+`;
   } else {
     result.textContent = ` Stressed Out:
-    You're showing many classic signs of stress, low energy levels, restlessness, irritability, sleep deprivation. It's time to take action to manage your stress levels. Take a look at our relaxation techniques, meditation and stress relief tips and learn how to reduce stress.`;
+    You're showing many classic signs of stress, low energy levels, restlessness, irritability, sleep deprivation. It's time to take action to manage your stress levels. Take a look at our relaxation techniques, meditation and stress relief tips and learn how to reduce stress.
+    `;
   }
 }
