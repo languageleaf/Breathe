@@ -13,30 +13,34 @@ function check() {
   var q5 = document.quiz.question5.value;
   var result = document.getElementById("result");
   var quiz = document.getElementById("quiz");
-  if (q1 == "anwser2") {
+
+  if (q1 == "anwser3") {
     c++;
   }
 
-  if (q2 == "anwser2") {
+  if (q2 == "anwser3") {
     c++;
   }
 
-  if (q3 == "anwser2") {
+  if (q3 == "anwser3") {
     c++;
   }
 
-  if (q4 == "anwser2") {
+  if (q4 == "anwser3") {
     c++;
   }
 
-  if (q5 == "anwser2") {
+  if (q5 == "anwser3") {
     c++;
   }
 
   quiz.style.display = "none";
   if (c < 3) {
-    result.textContent = `You got ${c}, you are not that stressed but...`;
+    result.textContent = ` Rarely stressed
+    You're good at tackling stress and nothing really gets you down for long. You manage each situation well and keep your cool – even when things are unexpected.
+    `;
   } else {
-    result.textContent = `You got ${c}, you are very stressed, please think about checking the relaxation techniques and the meditation for beginners...`;
+    result.textContent = ` Stressed Out:
+    You're showing many classic signs of stress, low energy levels, restlessness, irritability, sleep deprivation. It's time to take action to manage your stress levels. Take a look at our relaxation techniques, meditation and stress relief tips and learn how to reduce stress.`;
   }
 }
