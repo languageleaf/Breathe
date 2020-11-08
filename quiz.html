@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
     <script src="./js/script.js" defer></script>
 
@@ -30,45 +31,94 @@
             </ul>
         </div>
     </nav>
-    <h1>Take the Breathe Quiz</h1>
     <h3>just a quiz to check if you're stressed...</h3>
+
 
     <div class="quiz">
 
         <form name="quiz" id="quiz">
+
             <div>
-                <p>Question 1.</p>
-                <p><input type="radio" name="question1" value="anwser1">1</p>
-                <p><input type="radio" name="question1" value="anwser2">2</p>
-                <p><input type="radio" name="question1" value="anwser3">3</p>
+                <h3>
+                    <p>1. Do you find it difficult concentrating on a task?</p>
+                </h3>
+                <h5>
+                    <p><input type="radio" name="question1" value="anwser1"> No, I am very focused
+                    </p>
+                    <p><input type="radio" name="question1" value="anwser2"> Now and then, but my concentration is
+                        mostly
+                        good</p>
+                    <p><input type="radio" name="question1" value="anwser3"> Every time. I am very easily distracted
+                    </p>
+                </h5>
             </div>
 
             <div>
-                <p>Question 2.</p>
-                <p><input type="radio" name="question2" value="anwser1">1</p>
-                <p><input type="radio" name="question2" value="anwser2">2</p>
-                <p><input type="radio" name="question2" value="anwser3">3</p>
+                <h3>
+                    <p>2. Do you worry a lot?</p>
+                </h3>
+                <h5>
+                    <p><input type="radio" name="question2" value="anwser1"> Only when I have something to worry about.
+                        I'm
+                        generally quite calm</p>
+                    <p><input type="radio" name="question2" value="anwser2"> I do not worry much. Why stress out about
+                        things
+                        I can't control?
+                    </p>
+                    <p><input type="radio" name="question2" value="anwser3"> I worry a lot I am a very anxious person
+                    </p>
+                </h5>
             </div>
 
             <div>
-                <p>Question 3.</p>
-                <p><input type="radio" name="question3" value="anwser1">1</p>
-                <p><input type="radio" name="question3" value="anwser2">2</p>
-                <p><input type="radio" name="question3" value="anwser3">3</p>
+                <h3>
+                    <p>3. When was the last time you set aside time to relax by yourself?
+                    </p>
+                </h3>
+                <h5>
+                    <p><input type="radio" name="question3" value="anwser1"> Normally a couple of times a week</p>
+                    <p><input type="radio" name="question3" value="anwser2"> Not as often as I would like, but about
+                        once
+                        a
+                        week
+                    </p>
+                    <p><input type="radio" name="question3" value="anwser3"> I don't remember, I hardly have time to
+                        relax
+                    </p>
+                </h5>
             </div>
 
             <div>
-                <p>Question 4.</p>
-                <p><input type="radio" name="question4" value="anwser1">1</p>
-                <p><input type="radio" name="question4" value="anwser2">2</p>
-                <p><input type="radio" name="question4" value="anwser3">3</p>
+                <h3>
+                    <p>4. How tired do you feel right now?
+                    </p>
+                </h3>
+                <h5>
+                    <p><input type="radio" name="question4" value="anwser1"> Absolutely fine</p>
+                    <p><input type="radio" name="question4" value="anwser2"> A little tired, but nothing that a nap
+                        won't
+                        fix
+                    </p>
+                    <p><input type="radio" name="question4" value="anwser3"> Over-tired. I always feel tired.
+                    </p>
+                </h5>
             </div>
 
             <div>
-                <p>Question 5.</p>
-                <p><input type="radio" name="question5" value="anwser1">1</p>
-                <p><input type="radio" name="question5" value="anwser2">2</p>
-                <p><input type="radio" name="question5" value="anwser3">3</p>
+                <h3>
+                    <p>5. How do you find going to sleep?</p>
+                </h3>
+                <h5>
+                    <p><input type="radio" name="question5" value="anwser1"> Always relaxed – I never find it hard to
+                        drift
+                        off to sleep</p>
+                    <p><input type="radio" name="question5" value="anwser2"> It depends, sometimes I find it easy to
+                        sleep,
+                        but if I have a big day ahead it is hard to drift off</p>
+                    <p><input type="radio" name="question5" value="anwser3"> It's hard not to think about my worries and
+                        it
+                        takes a while to get to sleep</p>
+                </h5>
             </div>
 
             <input type="button" name="" value="Am I Stressed?" id="button" onclick="check()">

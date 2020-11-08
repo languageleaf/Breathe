@@ -89,11 +89,12 @@ body {
 }
 
 .quiz {
-  background-color: papayawhip;
+  background-color: bisque;
   color: black;
   font-size: 25px;
   font-weight: bolder;
   margin-left: 2rem;
+  font-family: "Cormorant Garamond", serif;
 }
 
 #button {
@@ -101,4 +102,5 @@ body {
   color: white;
   font-size: 20px;
   padding: 5px;
+  font-family: "Cormorant Garamond", serif;
 }
