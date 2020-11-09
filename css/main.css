@@ -140,3 +140,9 @@ body {
 .technique {
   font-size: 1.6rem;
 }
+
+.homepage {
+  position: absolute;
+  background-position: center;
+  background-size: cover;
+}
