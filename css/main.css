@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   background-color: #efebe2;
+  font-family: "Cormorant Garamond", serif;
 }
 
 .navbar {
@@ -108,7 +109,7 @@ body {
 .carousel-item {
   height: 32rem;
   background-color: black;
-  color: bisque;
+  color: white;
   position: relative;
 }
 
@@ -118,6 +119,7 @@ body {
   left: 0;
   right: 0;
   padding-bottom: 50px;
+  font-size: 1.2rem;
 }
 
 .overlay-image {
@@ -129,4 +131,12 @@ body {
   background-position: center;
   background-size: cover;
   opacity: 0.65;
+}
+
+.meditation {
+  font-size: 1.6rem;
+}
+
+.technique {
+  font-size: 1.6rem;
 }
