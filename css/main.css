@@ -95,6 +95,7 @@ body {
   font-size: 25px;
   font-weight: bolder;
   margin-left: 2rem;
+  margin-right: 2rem;
   font-family: "Cormorant Garamond", serif;
 }
 
@@ -102,7 +103,7 @@ body {
   background-color: black;
   color: white;
   font-size: 20px;
-  padding: 5px;
+  padding: 10px;
   font-family: "Cormorant Garamond", serif;
 }
 
@@ -139,6 +140,7 @@ body {
 
 .technique {
   font-size: 1.6rem;
+  padding: 25px 50px;
 }
 
 .homepage-body {
@@ -232,6 +234,7 @@ body {
   align-items: center;
   justify-content: center;
   color: #54462f;
+  padding: 30px;
 }
 
 .stress-text {
@@ -246,4 +249,16 @@ body {
   justify-content: center;
   color: white;
   font-size: 2rem;
+}
+
+.mystory {
+  padding: 25px 50px;
+}
+
+.aboutus {
+  padding: 25px 50px;
+}
+
+.meditation-padding {
+  padding: 25px 50px;
 }
