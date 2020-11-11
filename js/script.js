@@ -15,22 +15,42 @@ function check() {
   var quiz = document.getElementById("quiz");
 
   if (q1 == "anwser3") {
-    c++;
+    c = c + 2;
   }
 
   if (q2 == "anwser3") {
-    c++;
+    c = c + 2;
   }
 
   if (q3 == "anwser3") {
-    c++;
+    c = c + 2;
   }
 
   if (q4 == "anwser3") {
-    c++;
+    c = c + 2;
   }
 
   if (q5 == "anwser3") {
+    c = c + 2;
+  }
+
+  if (q1 == "anwser2") {
+    c++;
+  }
+
+  if (q2 == "anwser2") {
+    c++;
+  }
+
+  if (q3 == "anwser2") {
+    c++;
+  }
+
+  if (q4 == "anwser2") {
+    c++;
+  }
+
+  if (q5 == "anwser2") {
     c++;
   }
 
@@ -40,7 +60,7 @@ function check() {
     result.textContent = ` Rarely stressed
     You're good at tackling stress and nothing really gets you down for long. You manage each situation well and keep your cool – even when things are unexpected.
     `;
-  } else if (c < 3) {
+  } else if (c < 6) {
     result.textContent = `A bit stressed:
 Although you may show some of the classic signs of stress, you manage the situation quite well. You tend to be stressed but you’re good with de-stressing and not letting it 
 `;
